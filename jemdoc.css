@@ -36,12 +36,13 @@ ul {
 #layout-content {
     max-width: 900px;
     margin: auto;
-    padding: 30px;              /* 内边距 */
-    border: 2px ;      /* 边框 */
-    border-radius: 6px;         /* 圆角让边框更柔和 */
-    background-color: white;    /* 背景白色避免和外部混 */
-    box-shadow: 0 0 10px rgba(0,0,0,0.05); /* 可选阴影更美观 */
+    padding: 30px;
+    border: 2px solid white;          /* 白色边框，虽然看不见但语法完整 */
+    border-radius: 6px;
+    background-color: white;          /* 白色背景 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* 柔和阴影 */
 }
+
 
 /* 可选：分割线 */
 hr.section-line {

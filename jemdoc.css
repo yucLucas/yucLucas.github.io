@@ -1,12 +1,11 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 40px;
-    background: #ffffff;
+    background: #E0E0E0; /* 将 #ffffff 替换为你拾取到的颜色代码 */
     color: #000000;
     line-height: 1.6;
     font-size: 16px;
 }
-
 
 h1, h2, h3 {
     color: #003366;
@@ -37,11 +36,11 @@ ul {
 #layout-content {
     max-width: 900px;
     margin: auto;
-    padding: 30px;                  /* 内边距 */
-    border: 2px solid red;          /* 红色边框 */
-    border-radius: 6px;             /* 圆角让边框更柔和 */
-    background-color: white;        /* 背景白色避免和外部混 */
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);  /* 可选阴影更美观 */
+    padding: 30px;              /* 内边距 */
+    border: 2px solid red;      /* 红色边框 */
+    border-radius: 6px;         /* 圆角让边框更柔和 */
+    background-color: white;    /* 背景白色避免和外部混 */
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); /* 可选阴影更美观 */
 }
 
 /* 可选：分割线 */
